@@ -1,2 +1,8 @@
-package HW.basic;public class TestClient {
+package HW.basic;
+
+public class TestClient {
+    public static void main(String[] args) {
+        OrderManager manager = new OrderManager();
+        manager.order(10000);
+    }
 }

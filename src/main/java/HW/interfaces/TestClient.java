@@ -1,8 +1,9 @@
-package HW.basic;
+package HW.interfaces;
 
 public class TestClient {
     public static void main(String[] args) {
-        OrderManager manager = new OrderManager();
-        manager.order(10000);
+        OrderManager manager = new OrderManager(new HyundaiMaker());
+        manager.setMaker(new HyundaiMaker());
+        manager.order(20000);
     }
 }

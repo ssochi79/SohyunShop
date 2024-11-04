@@ -1,16 +1,23 @@
-package HW.basic;
+package HW.interfaces;
 
 public class OrderManager {
 
-    private HyundaiMaker hyundaiMaker;
+    private CarMaker maker;
 
     public OrderManager(){
-        this.hyundaiMaker= new HyundaiMaker();
+
+    }
+    public OrderManager(CarMaker maker){
+        this.maker= maker;
     }
 
     public void order(int cost){
         Money money = new Money(cost);
-        Car car = hyundaiMaker.sell(money);
+        Car car = maker.sell(money);
         System.out.println("판매상(인수) : "+ car.getName());
+    }
+
+    public void setMaker(CarMaker maker) {
+        this.maker = maker;
     }
 }

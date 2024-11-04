@@ -1,4 +1,4 @@
-package HW.interfaces;
+package xml;
 
 public class Money {
 

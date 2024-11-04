@@ -1,4 +1,4 @@
-package HW.basic;
+package HW.interfaces;
 
 public class Car {
     private String name;

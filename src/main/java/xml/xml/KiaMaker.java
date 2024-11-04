@@ -1,4 +1,4 @@
-package xml;
+package xml.xml;
 
 public class KiaMaker implements CarMaker {
 

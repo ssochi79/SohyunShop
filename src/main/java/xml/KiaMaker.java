@@ -1,6 +1,6 @@
-package HW.interfaces;
+package xml;
 
-public class KiaMaker implements CarMaker{
+public class KiaMaker implements CarMaker {
 
 
     @Override

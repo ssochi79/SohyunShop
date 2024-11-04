@@ -1,9 +1,11 @@
-package HW.interfaces;
+package xml;
 
 public class TestClient {
     public static void main(String[] args) {
-        OrderManager manager = new OrderManager(new HyundaiMaker());
-        manager.setMaker(new HyundaiMaker());
-        manager.order(20000);
+
+        //ApplicationEX
+//        OrderManager manager = new OrderManager(new HyundaiMaker());
+//        manager.setMaker(new HyundaiMaker());
+//        manager.order(20000);
     }
 }

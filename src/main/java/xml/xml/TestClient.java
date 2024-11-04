@@ -1,4 +1,4 @@
-package xml;
+package xml.xml;
 
 public class TestClient {
     public static void main(String[] args) {

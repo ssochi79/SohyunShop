@@ -1,2 +1,5 @@
-package inhatc.cse.sohyunshop.member.constant;public class Role {
+package inhatc.cse.sohyunshop.member.constant;
+
+public enum Role {
+    USER, ADMIN
 }
